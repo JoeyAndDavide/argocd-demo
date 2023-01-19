@@ -1,3 +1,4 @@
 resources:
   - db-deployment.yaml
+  - db-service.yaml
   - worker-deployment.yaml
