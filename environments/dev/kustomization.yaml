@@ -2,4 +2,4 @@ bases:
   - ../../application
 
 patches:
-  - all-resources.yaml
+  - db-resources.yaml
