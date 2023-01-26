@@ -1,0 +1,5 @@
+bases:
+  - ../../application
+
+patches:
+  - all-resources.yaml
