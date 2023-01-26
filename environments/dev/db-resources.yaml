@@ -6,7 +6,8 @@ spec:
   template:
     spec:
       containers:
-        - resources:
+        - name: postgres
+          resources:
             limits:
               memory: "256Mi"
               cpu: "500m"
