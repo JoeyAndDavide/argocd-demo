@@ -19,10 +19,7 @@ spec:
           image: postgres:15-alpine
           env:
             - name: POSTGRES_USER
-              valueFrom:
-                configMapKeyRef:
-                  name: db-config
-                  key: username
+              value: postgres
             - name: POSTGRES_PASSWORD
               value: postgres
           ports:
