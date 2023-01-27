@@ -11,4 +11,5 @@ patches:
 
 configMapGenerator:
   - name: db-config
-    files: configs/db-config.json
+    files: 
+      - configs/db-config.json
